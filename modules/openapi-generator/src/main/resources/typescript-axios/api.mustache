@@ -3,6 +3,7 @@
 {{>licenseInfo}}
 
 {{^withSeparateModelsAndApi}}
+import {URLSearchParams, URL} from 'url';
 import { Configuration } from './configuration';
 import globalAxios, { AxiosPromise, AxiosInstance } from 'axios';
 // Some imports not used depending on template conditions
